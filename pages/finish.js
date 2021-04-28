@@ -19,7 +19,12 @@ const amountOfFlavors = {
   pequena: 15,
 };
 
-const borderType = {};
+const borderType = {
+  1:'borda de requeijão',
+  2:'borda de cheddar',
+  3:'borda de chocolate',
+  4:'sem borda',
+};
 
 function Finish() {
   const dispatch = useDispatch();
@@ -61,10 +66,10 @@ function Finish() {
             Tamanho da pizza: <strong>{user.size}</strong>
           </p>
           <p className={styles.item}>
-            Massa: <strong>{user.border}</strong>
+            Massa: <strong>{user.dough}</strong>
           </p>
           <p className={styles.item}>
-            Borda: <strong>{user.dough}</strong>
+            Borda: <strong>{borderType[user.border]}</strong>
           </p>
           <p className={styles.item}>
             Sabores:
