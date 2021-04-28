@@ -1,0 +1,8 @@
+  .infoError {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-top: 5px;
+    color: var(--color-primary);
+    text-align: center;
+  }
+  
