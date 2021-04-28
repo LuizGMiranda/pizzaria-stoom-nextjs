@@ -71,8 +71,8 @@ function Step1() {
               <option selected="selected" disabled>
                 Selecione o tipo da massa
               </option>
-              <option value="traditional">Tradicional</option>
-              <option value="vegan">Vegana</option>
+              <option value="tradicional">Tradicional</option>
+              <option value="vegana">Vegana</option>
             </select>
           </li>
           <li className={styles.item}>
