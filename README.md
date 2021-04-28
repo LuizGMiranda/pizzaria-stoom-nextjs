@@ -1,6 +1,9 @@
 # Pizzaria Stoom
 Sistema simples para solicitar uma pizza.
 
+### A pizza do dia (recomendada)
+Esta marcada com uma estrela na seleção de sabores.
+
 ## Iniciar o projeto
 Apos fazer o clone do projeto, instale as dependencias:
 ```bash
