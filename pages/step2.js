@@ -67,7 +67,7 @@ function Step2() {
       </p>
       <Form>
         <ul>
-          {flavors.length &&
+          {flavors.length ?
             flavors.map((flavor) => (
               <li>
                 {
@@ -77,7 +77,7 @@ function Step2() {
                 {flavor.title} <pequena>- {flavor.description}</pequena>{" "}
                 <span>R$ {flavor.value}</span>
               </li>
-            ))}
+            )): <p>Carregando...</p>}
         </ul>
 
               {
