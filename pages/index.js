@@ -36,7 +36,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Title>Pizzaria Stoom</Title>
-        <Form>
+        <Form onSubmit={formik.handleSubmit}>
           <label htmlFor="name">Qual seu nome?</label>
           <input
             id="name"
