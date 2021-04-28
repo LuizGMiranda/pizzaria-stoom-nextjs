@@ -38,9 +38,11 @@ export const userSlice = createSlice({
         state.flavors = action.payload
     },
     cleanState: state => {
-        console.log('state',state)
-        console.log('initialState',initialState)
-        state = initialState
+        state.name = '',
+        state.size = '',
+        state.dough = '',
+        state.border = '',
+        state.flavors = []
     },
   }
 })
